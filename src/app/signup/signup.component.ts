@@ -40,7 +40,7 @@ export class SignupComponent implements OnInit {
   // Initialize Google Sign-Up
   initializeGoogleSignIn(): void {
     google.accounts.id.initialize({
-      client_id: '771701669694-i2g5642noqq9r20rlbu1uc3ve2jmeei1.apps.googleusercontent.com',
+      client_id: 'YOUR CLIENT ID',
       callback: (response: any) => this.handleGoogleSignIn(response)
     });
 

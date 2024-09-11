@@ -45,7 +45,7 @@ export class GoogleloginComponent implements OnInit {
 
   initializeGoogleSignIn(): void {
     google.accounts.id.initialize({
-      client_id: '771701669694-i2g5642noqq9r20rlbu1uc3ve2jmeei1.apps.googleusercontent.com',
+      client_id: 'YOUR CLIENT ID',
       callback: this.handleGoogleSignIn.bind(this) // Ensure the correct context for `this`
     });
 
