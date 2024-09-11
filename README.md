@@ -11,7 +11,8 @@
 
 3. Go to [Google Identity Services](https://developers.google.com/identity/gsi/web/guides/overview) for the configuration of the sign-in or sign-up button and generation of integration code.
 
-   - Click on sidebar -> Load the client library, copy the line `<script src="https://accounts.google.com/gsi/client" async></script>` and paste it in the index file. Make sure it is on top in the head section.
+   - Click on sidebar -> Load the client library, copy the line <br/>
+   `<script src="https://accounts.google.com/gsi/client" async></script>` and paste it in the index file. Make sure it is on top in the head section.
 
    - Click on sidebar -> Generate the integration code. Type your client ID, which can be obtained from [Google Cloud Console Credentials](https://console.cloud.google.com/apis/credentials), and paste it in the client ID box. Then type the domain URL on which the site is hosted.
 
